@@ -1,0 +1,5 @@
+disable-default-queries: true #Turns off all standard queries
+
+queries:
+  - name: Run an external query (hosted on public github.com)
+    uses: github/codeql/javascript/ql/src/Security/CWE-022/ZipSlip.ql@main
