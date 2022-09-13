@@ -1,6 +1,6 @@
 queries:
   - name: Use an in-repository QL pack (run queries in the my-queries directory)
-    uses: ./custom-queries/XSS.ql
+    uses: RohitDemo/codeql-config-demo/custom-queries/XSS.ql@main
 
 query-filters: # Enable only js/zipslip and js/xss
   - include:
