@@ -1,5 +1,7 @@
+queries:
+  - name: Use an in-repository QL pack (run queries in the my-queries directory)
+    uses: ./custom-queries/XSS.ql
+
 query-filters: # Enable only js/zipslip and js/xss
   - include:
       id: js/zipslip
-  - include:
-      id: js/xss
