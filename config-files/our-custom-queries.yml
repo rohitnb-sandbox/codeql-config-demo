@@ -1,0 +1,5 @@
+query-filters: # Enable only js/zipslip and js/xss
+  - include:
+      id: js/zipslip
+  - include:
+      id: js/xss
