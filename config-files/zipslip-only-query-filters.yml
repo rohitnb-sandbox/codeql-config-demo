@@ -1,0 +1,5 @@
+disable-default-queries: true #Turns off all standard queries
+
+query-filters: # Enable only js/zipslip
+  - include:
+      id: js/zipslip
